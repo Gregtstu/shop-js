@@ -34,15 +34,15 @@
 }
 
 .header__btn_cart {
-    background-image: url("/img/cart.svg");
+    background-image: url("../img/cart.svg");
 }
 
 .header__btn_favorite {
-    background-image: url("/img/favorite.svg");
+    background-image: url("../img/favorite.svg");
 }
 
 .header__btn_person {
-    background-image: url("/img/person.svg");
+    background-image: url("../img/person.svg");
 }
 
 @media (max-width: 760px) {
