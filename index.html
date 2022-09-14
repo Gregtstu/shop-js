@@ -6,14 +6,18 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>second hand</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header class="header">
-      <div class="container">
+      <div class="header__container container">
           <a class="header__logo" href="index.html">
               <img class="header__logo-img" src="img/logo.svg" alt="магазин Second Hand" width="112" height="42">
           </a>
           <nav class="header__navigation navigation">
+              <button class="navigation__btn navigation__btn_active">
+                  <span class="navigation__btn_line">Каталог</span>
+              </button>
               <ul class="navigation__list">
                   <li class="navigation__item"><a href="?category=women" class="navigation__link">Женщинам</a></li>
                   <li class="navigation__item"><a href="?category=men" class="navigation__link">Мужчинам</a></li>
@@ -70,168 +74,171 @@
             </div>
         </section>
         <section class="goods">
-            <ul class="goods__list">
-                <li class="goods__item">
-                    <article class="item">
-                        <img src="img/card1.jpg" alt="Джемпер" class="item__img">
+            <div class="container">
 
-                        <button class="item__favorite-btn">
-                        </button>
+                <ul class="goods__list">
+                    <li class="goods__item">
+                        <article class="item">
+                            <img src="img/card1.jpg" alt="Джемпер" class="item__img">
 
-                        <div class="item__control-wrapper">
-                            <h3 class="item__title">Джемпер</h3>
+                            <button class="item__favorite-btn">
+                            </button>
 
-                            <button class="item__to-cart">В корзину</button>
+                            <div class="item__control-wrapper">
+                                <h3 class="item__title">Джемпер</h3>
 
-                            <p class="item__price">4000 ₽
-                                <span class="item__old-price">5000 ₽</span>
-                            </p>
+                                <button class="item__to-cart">В корзину</button>
 
-                            <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
-                        </div>
-                    </article>
-                </li>
-                <li class="goods__item">
-                    <article class="item">
-                        <img src="img/card1.jpg" alt="Джемпер" class="item__img">
+                                <p class="item__price">4000 ₽
+                                    <span class="item__old-price">5000 ₽</span>
+                                </p>
 
-                        <button class="item__favorite-btn">
-                        </button>
+                                <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="goods__item">
+                        <article class="item">
+                            <img src="img/card1.jpg" alt="Джемпер" class="item__img">
 
-                        <div class="item__control-wrapper">
-                            <h3 class="item__title">Джемпер</h3>
+                            <button class="item__favorite-btn">
+                            </button>
 
-                            <button class="item__to-cart">В корзину</button>
+                            <div class="item__control-wrapper">
+                                <h3 class="item__title">Джемпер</h3>
 
-                            <p class="item__price">4000 ₽
-                                <span class="item__old-price">5000 ₽</span>
-                            </p>
+                                <button class="item__to-cart">В корзину</button>
 
-                            <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
-                        </div>
-                    </article>
-                </li>
-                <li class="goods__item">
-                    <article class="item">
-                        <img src="img/card1.jpg" alt="Джемпер" class="item__img">
+                                <p class="item__price">4000 ₽
+                                    <span class="item__old-price">5000 ₽</span>
+                                </p>
 
-                        <button class="item__favorite-btn">
-                        </button>
+                                <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="goods__item">
+                        <article class="item">
+                            <img src="img/card1.jpg" alt="Джемпер" class="item__img">
 
-                        <div class="item__control-wrapper">
-                            <h3 class="item__title">Джемпер</h3>
+                            <button class="item__favorite-btn">
+                            </button>
 
-                            <button class="item__to-cart">В корзину</button>
+                            <div class="item__control-wrapper">
+                                <h3 class="item__title">Джемпер</h3>
 
-                            <p class="item__price">4000 ₽
-                                <span class="item__old-price">5000 ₽</span>
-                            </p>
+                                <button class="item__to-cart">В корзину</button>
 
-                            <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
-                        </div>
-                    </article>
-                </li>
-                <li class="goods__item">
-                    <article class="item">
-                        <img src="img/card1.jpg" alt="Джемпер" class="item__img">
+                                <p class="item__price">4000 ₽
+                                    <span class="item__old-price">5000 ₽</span>
+                                </p>
 
-                        <button class="item__favorite-btn">
-                        </button>
+                                <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="goods__item">
+                        <article class="item">
+                            <img src="img/card1.jpg" alt="Джемпер" class="item__img">
 
-                        <div class="item__control-wrapper">
-                            <h3 class="item__title">Джемпер</h3>
+                            <button class="item__favorite-btn">
+                            </button>
 
-                            <button class="item__to-cart">В корзину</button>
+                            <div class="item__control-wrapper">
+                                <h3 class="item__title">Джемпер</h3>
 
-                            <p class="item__price">4000 ₽
-                                <span class="item__old-price">5000 ₽</span>
-                            </p>
+                                <button class="item__to-cart">В корзину</button>
 
-                            <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
-                        </div>
-                    </article>
-                </li>
-                <li class="goods__item">
-                    <article class="item">
-                        <img src="img/card1.jpg" alt="Джемпер" class="item__img">
+                                <p class="item__price">4000 ₽
+                                    <span class="item__old-price">5000 ₽</span>
+                                </p>
 
-                        <button class="item__favorite-btn">
-                        </button>
+                                <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="goods__item">
+                        <article class="item">
+                            <img src="img/card1.jpg" alt="Джемпер" class="item__img">
 
-                        <div class="item__control-wrapper">
-                            <h3 class="item__title">Джемпер</h3>
+                            <button class="item__favorite-btn">
+                            </button>
 
-                            <button class="item__to-cart">В корзину</button>
+                            <div class="item__control-wrapper">
+                                <h3 class="item__title">Джемпер</h3>
 
-                            <p class="item__price">4000 ₽
-                                <span class="item__old-price">5000 ₽</span>
-                            </p>
+                                <button class="item__to-cart">В корзину</button>
 
-                            <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
-                        </div>
-                    </article>
-                </li>
-                <li class="goods__item">
-                    <article class="item">
-                        <img src="img/card1.jpg" alt="Джемпер" class="item__img">
+                                <p class="item__price">4000 ₽
+                                    <span class="item__old-price">5000 ₽</span>
+                                </p>
 
-                        <button class="item__favorite-btn">
-                        </button>
+                                <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="goods__item">
+                        <article class="item">
+                            <img src="img/card1.jpg" alt="Джемпер" class="item__img">
 
-                        <div class="item__control-wrapper">
-                            <h3 class="item__title">Джемпер</h3>
+                            <button class="item__favorite-btn">
+                            </button>
 
-                            <button class="item__to-cart">В корзину</button>
+                            <div class="item__control-wrapper">
+                                <h3 class="item__title">Джемпер</h3>
 
-                            <p class="item__price">4000 ₽
-                                <span class="item__old-price">5000 ₽</span>
-                            </p>
+                                <button class="item__to-cart">В корзину</button>
 
-                            <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
-                        </div>
-                    </article>
-                </li>
-                <li class="goods__item">
-                    <article class="item">
-                        <img src="img/card1.jpg" alt="Джемпер" class="item__img">
+                                <p class="item__price">4000 ₽
+                                    <span class="item__old-price">5000 ₽</span>
+                                </p>
 
-                        <button class="item__favorite-btn">
-                        </button>
+                                <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="goods__item">
+                        <article class="item">
+                            <img src="img/card1.jpg" alt="Джемпер" class="item__img">
 
-                        <div class="item__control-wrapper">
-                            <h3 class="item__title">Джемпер</h3>
+                            <button class="item__favorite-btn">
+                            </button>
 
-                            <button class="item__to-cart">В корзину</button>
+                            <div class="item__control-wrapper">
+                                <h3 class="item__title">Джемпер</h3>
 
-                            <p class="item__price">4000 ₽
-                                <span class="item__old-price">5000 ₽</span>
-                            </p>
+                                <button class="item__to-cart">В корзину</button>
 
-                            <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
-                        </div>
-                    </article>
-                </li>
-                <li class="goods__item">
-                    <article class="item">
-                        <img src="img/card1.jpg" alt="Джемпер" class="item__img">
+                                <p class="item__price">4000 ₽
+                                    <span class="item__old-price">5000 ₽</span>
+                                </p>
 
-                        <button class="item__favorite-btn">
-                        </button>
+                                <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="goods__item">
+                        <article class="item">
+                            <img src="img/card1.jpg" alt="Джемпер" class="item__img">
 
-                        <div class="item__control-wrapper">
-                            <h3 class="item__title">Джемпер</h3>
+                            <button class="item__favorite-btn">
+                            </button>
 
-                            <button class="item__to-cart">В корзину</button>
+                            <div class="item__control-wrapper">
+                                <h3 class="item__title">Джемпер</h3>
 
-                            <p class="item__price">4000 ₽
-                                <span class="item__old-price">5000 ₽</span>
-                            </p>
+                                <button class="item__to-cart">В корзину</button>
 
-                            <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
-                        </div>
-                    </article>
-                </li>
-            </ul>
+                                <p class="item__price">4000 ₽
+                                    <span class="item__old-price">5000 ₽</span>
+                                </p>
+
+                                <button class="item__description-btn"><span class="item__description-text">Подробнее</span></button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">

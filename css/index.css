@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import "normalize.css";
+@import "default.css";
+@import "modules/header.css";
+@import "modules/navigation.css";
+@import "modules/search.css";
