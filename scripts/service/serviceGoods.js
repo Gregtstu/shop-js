@@ -1,4 +1,5 @@
-const URL_SERVER = 'http://localhost:3000';
+// const URL_SERVER = 'http://localhost:3000';
+const URL_SERVER = 'https://boiling-basin-13066.herokuapp.com';
 const URL_POSTFIX = '/api/goods';
 
 const getGoods = (query = '') =>
