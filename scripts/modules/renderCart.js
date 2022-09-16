@@ -1,7 +1,6 @@
 import {getStorage} from "../service/serviceStorage.js";
 import serviceGoods from "../service/serviceGoods.js";
 
-
 const renderList = (cart) => {
     const cartList = document.querySelector('.modal-cart__list');
     const cartTotal = document.querySelector('.modal-cart__total-price');
@@ -57,6 +56,7 @@ const renderList = (cart) => {
     })
 
     cartTotal.textContent = totalPrice;
+
 }
 
 const renderCart = () => {
