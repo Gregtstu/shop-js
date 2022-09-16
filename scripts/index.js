@@ -9,6 +9,7 @@ import addFavorite from "./modules/addFavorite.js";
 import controlCart from "./modules/addCart.js";
 import renderCart from "./modules/renderCart.js";
 
+
 burgerMenu({
     selectorBtn: '.navigation__btn',
     selectorMenu: '.navigation',
@@ -17,13 +18,6 @@ burgerMenu({
 });
 
 
-searchControl({
-    selectorBtn: '.search__button',
-    selectorForm: '.search',
-    classActive: 'search_active',
-    selectorClose: '.search__close',
-    breakpoint: 760,
-});
 
 selectControl({
     selectorBtn: '.footer__subtitle',
@@ -38,6 +32,16 @@ const checkSlider = slider({
     selectorPagination: '.hero__slider-pagination',
     bulletClass: 'hero__slider-line',
     bulletActiveClass: 'hero__slider-line_active'
+});
+
+
+searchControl({
+    selectorBtn: '.search__button',
+    selectorForm: '.search',
+    classActive: 'search_active',
+    selectorClose: '.search__close',
+    breakpoint: 760,
+    callback: checkSlider
 });
 
 renderGoods(location.search, () => {
@@ -73,6 +77,7 @@ addFavorite({
     targetSelector: '.modal-item__btn-to-favorite',
     changeActiveClass: '.item__favorite-btn'
 });
+
 
 controlCart({
     selectorAdd: '.item__to-cart',
