@@ -44,7 +44,6 @@ searchControl({
     callback: checkSlider
 });
 
-
 renderGoods(location.search, () => {
     document.body.style.opacity = '1';
 });

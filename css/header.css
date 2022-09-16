@@ -44,22 +44,10 @@
 
 .header__btn_cart {
   background-image: url("../img/cart.svg");
-  width: 50px;
-  height: 50px;
-  color: red;
-  font-size: 20px;
-
 }
 
 .header__btn_favorite {
-  padding-top: 10px;
-  border: 1px solid red;
   background-image: url("../img/favorite.svg");
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  font-size: 20px;
-  color: red;
 }
 
 .header__btn_person {
